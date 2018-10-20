@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     margin: 3,
     width: '98%',
     elevation: 1,
-    backgroundColor: "snow",
+    backgroundColor: "lawngreen",
     borderRadius: 10,
   },
   addButton: {
