@@ -33,8 +33,8 @@ export default class Main extends React.Component {
             style={styles.textInput}
             onChangeText={(noteText) => this.setState({ noteText })}
             value={noteText}
-            placeholder='Ketik disini'
-            placeholderTextColor='grey'
+            placeholder='Type here'
+            placeholderTextColor='blue'
             underlineColorAndroid='transparent'
             multiline={true} />
         </View>
