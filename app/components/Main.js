@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity } from 'react-native';
 import Header from '../components/Header';
 import Note from './Note';
 
-export default class Main extends React.Component {
+class Main extends Component {
 
   constructor(props) {
     super(props)
@@ -115,3 +115,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
 });
+
+
+export default Main;
