@@ -1,4 +1,4 @@
-import React { Component } from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, CheckBox } from 'react-native';
 const trash = require('../assets/trash.png')
 
