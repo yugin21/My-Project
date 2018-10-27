@@ -1,12 +1,8 @@
-import React from 'react'
-import Navigator from './app/Routes/Navigator'
+import React from 'react';
+import Navigator from './app/Routes/Navigator';
 
-class App extends React.Component {
-  render() {
-    return (
-        <Navigator />
-    );
-  }
-}
+const  App = () => (
+  <Navigator />
+)
 
-export default App
+export default App;
