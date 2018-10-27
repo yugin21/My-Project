@@ -1,15 +1,15 @@
-import React from 'react';
+import React { Component } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, CheckBox } from 'react-native';
 const trash = require('../assets/trash.png')
 
-export default class Keyval extends React.Component {
+class Keyval extends Component {
 
     constructor() {
         super();
     this.state={
         checked: false,
     }
-    }
+  }
     render() {
         return (
             <View>
@@ -85,3 +85,5 @@ const styles = StyleSheet.create({
         width: 55
     }
 });
+
+export default Keyval;
